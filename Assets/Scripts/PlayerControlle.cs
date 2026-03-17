@@ -3,26 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerControllerTutorialUpdates : MonoBehaviour
+
+public class PlayerController : MonoBehaviour
 {
-    public InputAction LeftAction;
-    public InputAction MoveAction;
+  public InputAction MoveAction;
 
-    void Start()
-    {
-         MoveAction.Enable(); 
-        LeftAction.Enable();
-       
-    }
 
-   void Update()
+  // Start is called before the first frame update
+  void Start()
+  {
+     MoveAction.Enable();   
+  }
  
-   {
+  // Update is called once per frame
+  void Update()
+  {
+    //QualitySettings.vSyncCount = 0;
+     //Application.targetFrameRate = 10;
      Vector2 move = MoveAction.ReadValue<Vector2>();
      Debug.Log(move);
-     Vector2 position = (Vector2)transform.position + move * 0.1f;
+      Vector2 position = (Vector2)transform.position + move * 3.0f * Time.deltaTime;
      transform.position = position;
-   
+  }
+
+
+}
 
         /*
         // 
@@ -56,5 +61,4 @@ public class PlayerControllerTutorialUpdates : MonoBehaviour
         positionOld.y += 0.1f * vertical;
         transform.position = positionOld;
         */
-    }
-}
+ 

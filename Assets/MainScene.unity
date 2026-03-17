@@ -2360,15 +2360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d31520c65890d3c489e84e206a9e39c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  LeftAction:
-    m_Name: Left
-    m_Type: 1
-    m_ExpectedControlType: Button
-    m_Id: d0d24eb5-cb5f-42d2-87d7-dff5e47903d4
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
   MoveAction:
     m_Name: Move
     m_Type: 0
