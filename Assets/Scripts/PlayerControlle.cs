@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 
   // Variables related to the health system
   public int maxHealth = 5;
+  public int health { get { return currentHealth; }}
   int currentHealth = 1;
 
 
@@ -47,9 +48,7 @@ public class PlayerController : MonoBehaviour
      Debug.Log(currentHealth + "/" + maxHealth);
   }
 
-
 }
-
         /*
         // 
         float horizontal = 0.0f;
