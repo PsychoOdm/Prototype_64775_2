@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8960743614550753846}
   - component: {fileID: 2906478427532063231}
   - component: {fileID: 2825376447899308618}
+  - component: {fileID: 1142519735432841593}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -179,3 +180,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d864029aef2bacb4d8151109d51767b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
+  speed: 0
+  vertical: 0
+  changeTime: 3
+--- !u!95 &1142519735432841593
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9173767033321107932}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f67e03ee48da7464bb42670ec769400e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
