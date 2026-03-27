@@ -4,43 +4,46 @@ using UnityEngine;
 
 public class EnemyController_H : MonoBehaviour
 {
-    public float speed = 2.0f;
-    public float changeTime = 3.0f;
+   public float speed;
+   public float changeTime = 3.0f;
+  
+   Rigidbody2D rigidbody2d;
+   Animator animator;
+   float timer;
+   int direction = 1;
 
-    Rigidbody2D rigidbody2d;
-    float timer;
-    int direction = 1;
+   void Start()
+   {
+       rigidbody2d = GetComponent<Rigidbody2D>();
+       animator = GetComponent<Animator>();
+       timer = changeTime;
+   }
 
-    void Start()
-    {
-        rigidbody2d = GetComponent<Rigidbody2D>();
-        if (rigidbody2d == null)
-            Debug.LogError("Rigidbody2D não encontrado no inimigo!");
-        timer = changeTime;
-    }
-
-    void Update()
-    {
+   void Update()
+   {
         timer -= Time.deltaTime;
         if (timer < 0)
         {
             direction = -direction;
             timer = changeTime;
         }
-    }
+   }
 
-    void FixedUpdate()
-    {
-        if (rigidbody2d == null) return;
-        Vector2 position = rigidbody2d.position;
-        position.x += speed * direction * Time.fixedDeltaTime;
-        rigidbody2d.MovePosition(position);
-    }
+   void FixedUpdate()
+   {
+       Vector2 position = rigidbody2d.position;
+       position.x = position.x + speed * direction * Time.deltaTime;
+       animator.SetFloat("Move X", direction);
+       animator.SetFloat("Move Y", 0);
+       rigidbody2d.MovePosition(position);
+   }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        PlayerController player = other.GetComponent<PlayerController>();
-        if (player != null)
-            player.ChangeHealth(-1);
-    }
+   void OnTriggerEnter2D(Collider2D other)
+   {
+       PlayerController player = other.GetComponent<PlayerController>();
+       if (player != null)
+       {
+           player.ChangeHealth(-1);
+       }
+   }
 }
