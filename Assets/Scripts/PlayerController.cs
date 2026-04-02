@@ -23,12 +23,18 @@ public class PlayerController : MonoBehaviour
 
     public GameObject projectilePrefab;
 
+    // ADICIONADO (áudio)
+    AudioSource audioSource;
+
     void Start()
     {
         MoveAction.Enable();
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
+
+        // ADICIONADO
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -57,8 +63,6 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
             FindFriend();
-
-
     }
 
     void FixedUpdate()
@@ -98,5 +102,11 @@ public class PlayerController : MonoBehaviour
             if (character != null)
                 UIHandler.instance.DisplayDialogue();
         }
+    }
+
+    // ADICIONADO (método de som)
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
