@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: 34edde76ed8f2804a9f55be9a1d5c12e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6930474823159529909
+    second: relva_0
+  - first:
+      213: -3461246934963265091
+    second: relva_1
+  - first:
+      213: -5478015764224080307
+    second: relva_2
+  - first:
+      213: -4339869446116593803
+    second: relva_3
+  - first:
+      213: 8406384458422952980
+    second: relva_4
+  - first:
+      213: 457119264058765991
+    second: relva_5
+  - first:
+      213: -2983458959969284907
+    second: relva_6
+  - first:
+      213: -2034348312971307074
+    second: relva_7
+  - first:
+      213: -4721892979633571785
+    second: relva_8
+  - first:
+      213: 2644254945348067538
+    second: relva_9
+  - first:
+      213: -8270530473219280870
+    second: relva_10
+  - first:
+      213: -5211154390227563513
+    second: relva_11
+  - first:
+      213: 8463673095068714551
+    second: relva_12
+  - first:
+      213: 130756990816117294
+    second: relva_13
+  - first:
+      213: 5892518397443050391
+    second: relva_14
+  - first:
+      213: 8387094627667825364
+    second: relva_15
+  - first:
+      213: -8920493679384613572
+    second: relva_16
+  - first:
+      213: -3232704935853154654
+    second: relva_17
+  - first:
+      213: -36664729525730114
+    second: relva_18
+  - first:
+      213: -3089311089911719321
+    second: relva_19
+  - first:
+      213: -8782444352683713001
+    second: relva_20
+  - first:
+      213: 5046489772606696677
+    second: relva_21
+  - first:
+      213: 7786940946036070542
+    second: relva_22
+  - first:
+      213: 3157050164569963323
+    second: relva_23
+  - first:
+      213: 7827423196158548705
+    second: relva_24
+  - first:
+      213: -1459002030802729256
+    second: relva_25
+  - first:
+      213: -8609281946900681617
+    second: relva_26
+  - first:
+      213: 5487506976442132248
+    second: relva_27
+  - first:
+      213: -4659446842351113288
+    second: relva_28
+  - first:
+      213: -3860000936256318126
+    second: relva_29
+  - first:
+      213: 4321188801875978959
+    second: relva_30
+  - first:
+      213: -8453933709937586762
+    second: relva_31
+  - first:
+      213: -2529017939247274807
+    second: relva_32
+  - first:
+      213: -8612663095388261812
+    second: relva_33
+  - first:
+      213: 553524009010545798
+    second: relva_34
+  - first:
+      213: -6587942456016662671
+    second: relva_35
+  - first:
+      213: 6459595573029034192
+    second: relva_36
+  - first:
+      213: -7624312274303286297
+    second: relva_37
+  - first:
+      213: 3213840555610826061
+    second: relva_38
+  - first:
+      213: -2610789906009319548
+    second: relva_39
+  - first:
+      213: -3005522238485073615
+    second: relva_40
+  - first:
+      213: 7610312515814336892
+    second: relva_41
+  - first:
+      213: -7902086688567621272
+    second: relva_42
+  - first:
+      213: 5944025474510671485
+    second: relva_43
+  - first:
+      213: 2406113373662879371
+    second: relva_44
+  - first:
+      213: -7329691364394331264
+    second: relva_45
+  - first:
+      213: 2797617406285621054
+    second: relva_46
+  - first:
+      213: 958185561233355605
+    second: relva_47
+  - first:
+      213: 7735025901355843943
+    second: relva_48
+  - first:
+      213: 6060963121302918084
+    second: relva_49
+  - first:
+      213: -8017856941472114097
+    second: relva_50
+  - first:
+      213: -1118929972130808498
+    second: relva_51
+  - first:
+      213: -8091692270867469282
+    second: relva_52
+  - first:
+      213: -8353504831482751538
+    second: relva_53
+  - first:
+      213: 7005530150158929762
+    second: relva_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: relva_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4eb9c81ed102df90800000000000000
+      internalID: -6930474823159529909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relva_1
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4096
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1ea99404e27ffc0800000000000000
+      internalID: -3461246934963265091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relva_2
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4096
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d460f6bafad2af3b0800000000000000
+      internalID: -5478015764224080307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relva_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f26ac7bbfa5c3c0800000000000000
+      internalID: -4339869446116593803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: relva_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4142aa1402a79a470800000000000000
+      internalID: 8406384458422952980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 90aa6ca7744300b46a875105c1bef1b2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":2048.0,"y":2048.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      relva_0: -6930474823159529909
+      relva_1: -3461246934963265091
+      relva_2: -5478015764224080307
+      relva_3: -4339869446116593803
+      relva_4: 8406384458422952980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
