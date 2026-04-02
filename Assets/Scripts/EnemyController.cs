@@ -4,34 +4,27 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    // Public variables
     public float speed;
     public bool vertical;
     public float changeTime = 3.0f;
+    public ParticleSystem smokeEffect;
 
-    // Private variables
     Rigidbody2D rigidbody2d;
     Animator animator;
     float timer;
     int direction = 1;
     bool broken = true;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         timer = changeTime;
-
     }
 
-
-    // Update is called every frame
     void Update()
     {
         timer -= Time.deltaTime;
-
 
         if (timer < 0)
         {
@@ -40,8 +33,6 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-
-    // FixedUpdate has the same call rate as the physics system
     void FixedUpdate()
     {
         if (!broken)
@@ -64,10 +55,8 @@ public class EnemyController : MonoBehaviour
             animator.SetFloat("Move Y", 0);
         }
 
-
         rigidbody2d.MovePosition(position);
     }
-
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -77,26 +66,26 @@ public class EnemyController : MonoBehaviour
         {
             player.ChangeHealth(-1);
         }
+
         if (other.gameObject.CompareTag("Bullet"))
         {
-            //Fix();
             Destroy(gameObject);
         }
-      
     }
-
 
     void OnCollisionEnter2D(Collision2D collision)
     {
     }
-
-
 
     public void Fix()
     {
         broken = false;
         GetComponent<Rigidbody2D>().simulated = false;
         animator.SetTrigger("Fixed");
-    }
 
+        if (smokeEffect != null)
+        {
+            smokeEffect.Stop();
+        }
+    }
 }
